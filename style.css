@@ -91,6 +91,7 @@ button {
 .rnd-images {
     display: flex;
     margin-top: 32px;
+    margin-bottom: 48px;
     justify-content: center;
     gap: 48px;
 
@@ -108,8 +109,23 @@ button {
     width: 160px;
     gap: 8px;
     font-size: 18px;
-    
+}
 
+.quotation {   
+    background-color: #E5E7EB;
+    padding: 96px 150px;
+    
+}
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic; 
+}
+
+.author {
+    text-align: right;
+    font-weight: 900;
 }
 
  
