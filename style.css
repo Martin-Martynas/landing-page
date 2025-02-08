@@ -60,7 +60,6 @@ ul {
 .hero button {
     border: none;
     margin-top: 8px;
-    
 }
 
 button {
@@ -85,14 +84,12 @@ button {
 .rnd {
     text-align: center;
     color: #1F2937;
-
 }
 
 .rnd-title {
     font-size: 36px;
     font-weight: 900;
     margin-top: 32px;
-
 }
 
 .rnd-images {
@@ -101,8 +98,8 @@ button {
     margin-bottom: 48px;
     justify-content: center;
     gap: 48px;
-
 }
+
 .img {
     width: 160px;
     height: 160px;
@@ -110,6 +107,7 @@ button {
     border-color: #3882F6;
     border-radius: 8px;
 }
+
 .image {
     display: flex;
     flex-direction: column;
@@ -123,6 +121,7 @@ button {
     padding: 96px 150px;
     
 }
+
 .quote {
     color: #1F2937;
     font-size: 36px;
@@ -144,9 +143,8 @@ button {
     gap: 50px;
     border-radius: 8px;
     align-items: center;
-    
-    
 }
+
 .action button {
     border: 1px solid #f9faf8;
 }
@@ -155,7 +153,3 @@ button {
     text-align: center;
     padding: 24px;
 }
-
- 
-    
-
