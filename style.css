@@ -7,10 +7,13 @@ body {
     margin:0;
 }
 
-.hero {
+.hero, .footer {
     background-color: #1F2937;
+}
+
+.hero, .action, .footer {
     font-size: 18px;
-    color: #E5E7EB;    
+    color: #E5E7EB; 
 }
 
 .hero, .rnd {
@@ -24,11 +27,11 @@ body {
     padding: 16px 0px;
 }
 
-.logo {
+.logo, .action-title {
     font-size: 24px;
 }
 
-.logo, .hero-title, button {
+.logo, .hero-title, .action-title, button {
     color: #f9faf8;
     font-weight: 900;
 }
@@ -54,16 +57,20 @@ ul {
     font-size: 48px;
 }
 
+.hero button {
+    border: none;
+    margin-top: 8px;
+    
+}
+
 button {
     background-color: #3882F6;
-    border: none;
     text-align: center;
     text-decoration: none;
     border-radius: 4px;
-    padding: 5px 20px;
     cursor: pointer;
-    margin-top: 8px;
-
+    font-size: 18px;
+    padding: 5px 20px;
 }
 
 .hero-image {
@@ -126,6 +133,27 @@ button {
 .author {
     text-align: right;
     font-weight: 900;
+}
+
+.action {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-evenly;
+    margin: 100px 150px 100px 150px;
+    padding: 50px;
+    gap: 50px;
+    border-radius: 8px;
+    align-items: center;
+    
+    
+}
+.action button {
+    border: 1px solid #f9faf8;
+}
+
+.footer {
+    text-align: center;
+    padding: 24px;
 }
 
  
