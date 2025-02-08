@@ -97,7 +97,7 @@ button {
     display: flex;
     margin-top: 32px;
     margin-bottom: 48px;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 48px;
     flex-wrap: wrap;
 }
