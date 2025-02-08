@@ -70,6 +70,7 @@ button {
     cursor: pointer;
     font-size: 18px;
     padding: 5px 20px;
+    flex-shrink: 0;
 }
 
 .hero-image {
@@ -98,6 +99,7 @@ button {
     margin-bottom: 48px;
     justify-content: center;
     gap: 48px;
+    flex-wrap: wrap;
 }
 
 .img {
@@ -143,10 +145,15 @@ button {
     gap: 50px;
     border-radius: 8px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .action button {
     border: 1px solid #f9faf8;
+}
+
+.action-text {
+    text-align: center;
 }
 
 .footer {
